@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,8 +10,10 @@
      <!--font awesome cdn -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
      <!-- tailwind cdn -->
-     <script src="https://cdn.tailwindcss.com"></script>
-
+     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+     <!-- daisy ui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
      <!-- internal css -->
      <style>
     .manrope {
@@ -57,7 +59,7 @@
             <!-- products card -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center mt-5">
                 <!-- card-1 -->
-                <div class="bg-gray-50 shadow-lg rounded-lg text-center">
+                <div class="card bg-gray-50 shadow-lg rounded-lg text-center">
                     <img class="mx-auto pt-4" src="./images/tea-1.png" alt="">
                     <div>
                         <h2 class="text-2xl font-bold my-1">Milk Tea</h2>
@@ -65,7 +67,7 @@
                     </div>
                 </div>
                 <!-- card-2 -->
-                <div class="bg-gray-50 shadow-lg rounded-lg text-center">
+                <div class="card bg-gray-50 shadow-lg rounded-lg text-center">
                     <img class="mx-auto pt-4" src="./images/tea-2.png" alt="">
                     <div>
                         <h2 class="text-2xl font-bold my-1">Black Tea</h2>
@@ -73,7 +75,7 @@
                     </div>
                 </div>
                 <!-- card-3 -->
-                <div class="bg-gray-50 shadow-lg rounded-lg text-center">
+                <div class="card bg-gray-50 shadow-lg rounded-lg text-center">
                     <img class="mx-auto pt-4" src="./images/tea-3.png" alt="">
                     <div>
                         <h2 class="text-2xl font-bold my-1">Lemon Tea</h2>
@@ -81,7 +83,7 @@
                     </div>
                 </div>
                 <!-- card-4 -->
-                <div class="bg-gray-50 shadow-lg rounded-lg text-center">
+                <div class="card bg-gray-50 shadow-lg rounded-lg text-center">
                     <img class="mx-auto pt-4" src="./images/tea-4.png" alt="">
                     <div>
                         <h2 class="text-2xl font-bold my-1">Green Tea</h2>
@@ -277,5 +279,7 @@
          </div>
         </div>
     </footer>
+
+    <script src="./tea-house.js"></script>
 </body>
 </html>
